@@ -6,6 +6,7 @@ import Services from "./Services"
 import Footer from "./Footer"
 import Service from "./partials/Service"
 import Statistics from "./Statistics"
+import Bfooter from "./Bfooter"
   
 function App() {
   return (
@@ -63,7 +64,7 @@ function App() {
       }}/>
 
       <Aboutus Component={Statistics}/>
-
+      <Bfooter/>
       <Footer/>
     </main>
   )
